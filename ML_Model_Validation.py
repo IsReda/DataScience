@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 #Data path
-iowa_data_path = "C:\\Users\\redak\\OneDrive\\Documents\\Python\\pythonProject\\DataScience\\Data_Sets\\iowa_housing_train.csv"
+iowa_data_path = "C:\\Users\\iowa_housing_train.csv"
 
 #Load data
 home_data = pd.read_csv(iowa_data_path)
